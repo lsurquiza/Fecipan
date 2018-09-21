@@ -1,0 +1,107 @@
+body{
+    font-family: Verdana;
+    color: #082B08;
+    margin: 0;
+    text-align: justify;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 8px;
+}
+header{
+    background-color: #92C591;
+    padding: 20px;
+}
+
+/* Style the top navigation bar */
+.menu {
+    overflow: hidden;
+    background-color: #082B08;
+    position: sticky;
+    top: 0;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #559E54;
+} 
+
+a:hover{
+    color: #305A30;
+}
+
+/* Style the topnav links */
+.menu a {
+    float: left;
+    display: block;
+    color: #E8F3E8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.menu a:hover {
+    background-color: #E8F3E8;
+    color: #0A3409;
+}
+
+.menu a.active{
+	background-color: #92C591;
+}
+
+/* Create three equal columns that floats next to each other */
+section, aside {
+    float: left;
+    padding: 8px 0;
+}
+section{
+    width: 80%;
+}
+aside{
+    width: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    section, aside {
+        width: 100%;
+    }
+}
+footer{
+    background-color: #EBF7E3;
+    color: #082B08;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    border-bottom: 1px dotted #ddd;
+    padding: 4px; 
+}
+
+tr:nth-child(even){
+    background-color: #E8F3E8; 
+}
+
+table.hover tr:hover{
+    background-color: #92C591;
+}
